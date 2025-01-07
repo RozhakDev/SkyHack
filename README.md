@@ -1,15 +1,18 @@
-# SkyHack
-![SkyHack Image](https://github.com/user-attachments/assets/67d69af9-3060-41e1-8c8f-804047775a23)
+# SkyHack Toolkit: Ethical Security for BlueSky 🌐🔒
+![SkyHack Logo](https://github.com/user-attachments/assets/1b40d32f-1f5e-45d6-810e-eb704adb3c7b)
 
+SkyHack is a powerful, Python-based brute force tool designed for educational purposes only. It offers a range of features to demonstrate the vulnerabilities of weak passwords and the importance of strong security measures. Built with modularity in mind, it allows for easy customization and extension.
 
-## Description
-BlueSky is an advanced Python-based brute force program specifically designed for educational purposes only. This powerful tool allows users to perform various actions on the BlueSky platform.
+> ⚠️ **Disclaimer**: This tool is intended solely for ethical and legal purposes. Unauthorized use may lead to severe consequences.
 
-The BlueSky brute force tool is built using a combination of Python scripts and JSON files to store and manage data. The tool's architecture is designed to be modular, allowing users to easily modify and extend its functionality. 
+## ✨ Features
+SkyHack is designed with user accessibility in mind, making it easy for beginners to navigate its functionalities. Users can retrieve valuable information by extracting data from search results, followers, and followings lists. Upcoming features will also allow data extraction from hashtags and explore pages. 🔍
 
-By using the BlueSky brute force tool, users can gain a deeper understanding of the importance of security and the potential consequences of weak passwords. However, it is essential to use this tool responsibly and within the bounds of the law.
+In addition to data retrieval, SkyHack offers robust hacking functionalities. Users can initiate hacking processes with pre-set configurations for quick and efficient actions. The tool provides logs of successful hacking attempts and checkpoint results, enhancing users' understanding of effective tool usage. 🔑
 
-## Installation
+SkyHack also features customizable settings, allowing users to personalize their experience by modifying the Useragent.json file. They can switch between `Single` or `Random` user-agent settings for advanced usage. 🛠️ These features collectively aim to enhance understanding of password vulnerabilities while promoting ethical usage.
+
+## 🛠️ Installation
 - **Linux - [Termux](https://drive.google.com/file/d/1dHqQe_WNWVp0qXTRPqYId_J3YVJ6taHr/view?usp=sharing)**
 
   ```
@@ -28,28 +31,35 @@ By using the BlueSky brute force tool, users can gain a deeper understanding of 
   $ ./Run
   ```
 
-## Customizing User Agent Settings
-By default, the BlueSky brute force tool uses a default user agent string to interact with the BlueSky API. However, users can customize this setting by modifying the Useragent.json file. To do so, follow these steps:
-1. Open the `Useragent.json` file in a text editor, such as `nano` or `vim`, in the Termux terminal.
-2. Locate the `"COMMENT"` section and modify the `"TYPE"` field to choose between `SINGLE` or `RANDOM` user agent settings.
+## ⚙️ Customizing User-Agent Settings
+You can modify the user-agent behavior by editing the `Useragent.json` file.
+1. Open the file with a text editor (e.g., `nano` or `vim`):
 
+    ```
+    nano Useragent.json
+    ```
+2. Change the `TYPE` value to:
+    - `RANDOM`: Rotate between multiple user-agents.
+    - `SINGLE`: Use a single user-agent.
+
+Example:
 ```json
 {
-    "TYPE": "RANDOM",
+    "TYPE": "RANDOM"
 }
 ```
-By customizing the user agent, users can change the behavior of the tool and potentially avoid detection by the BlueSky API. However, it is important to use this feature responsibly and within legal limits.
 
-## Error Handling
-- If you experience issues with login or token validation, you can try to change the BlueSky token and make sure the token is correct!
-- If you encounter any errors while hacking, you can just ignore them, we found that if you still need airplane mode then the hack runs smoothly!
-- If you don't get results, this is because the target is not good enough or has a password that is difficult to guess. Maybe you chose the wrong password list!
-- If you encounter issues with dumping IDs, you can make sure the target has a lot of followers/following and make sure the username is correct!
+## 📸 Screenshots
+![FunPic_20250107](https://github.com/user-attachments/assets/6df2676b-1d2e-4b92-adcd-2339526e32a8)
 
-## Screenshot
-![BlueSky](https://github.com/user-attachments/assets/6c5a92a0-6e58-4dea-8876-2052496d8747)
+## 🛡️ Error Handling & Tips
+- If you experience issues with login or token validation, try changing the BlueSky token and ensure that the token is correct! 🔑
+- If you encounter any errors while hacking, you can simply ignore them; we found that enabling airplane mode allows the hack to run smoothly! ✈️
+- If you don't get results, it may be because the target is not suitable or has a difficult-to-guess password. You might have chosen the wrong password list! ❌
+- If you encounter issues with dumping IDs, ensure that the target has a substantial number of followers/following and that the username is correct! 📊
 
-## Disclaimer
-This tool is for educational purposes only and should not be used to harm or exploit others. Using this tool to brute force or hack into someone's account without their consent is illegal and unethical. Be cautious when using this tool, as it may cause harm to your own account or others. The author of this tool is not responsible for any misuse or harm caused by this tool. Use at your own risk.
+## 🚨 Disclaimer
+This tool is for educational and research purposes only. Misuse of this tool is illegal and unethical. The developers are not responsible for any harm caused by its use. Use responsibly and within the law.
 
-I hope this description provides more detail about the BlueSky brute force tool! Let me know if you have any further requests.
+## 📜 License
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
