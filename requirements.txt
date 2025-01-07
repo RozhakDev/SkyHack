@@ -1,6 +1,6 @@
-httpx==0.13.3
-futures
+requests
 emoji
 pyjwt==2.0.0
 idna
 rich
+futures
