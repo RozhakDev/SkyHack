@@ -1,16 +1,12 @@
-# SkyHack Toolkit: Ethical Security for BlueSky 🌐🔒
-![SkyHack Logo](https://github.com/user-attachments/assets/1b40d32f-1f5e-45d6-810e-eb704adb3c7b)
+# SkyHacks - Nightmare BlueSky Account Annihilator 😈💀
+![SkyHack Logo](https://github.com/user-attachments/assets/8aa55ed2-3f3a-4bb6-9cee-d2afeb44fcbc)
 
-SkyHack is a powerful, Python-based brute force tool designed for educational purposes only. It offers a range of features to demonstrate the vulnerabilities of weak passwords and the importance of strong security measures. Built with modularity in mind, it allows for easy customization and extension.
+**SkyHack** is a terrifyingly potent, Python-based brute force tool ⚙️🕸️ crafted for educational purposes only. It showcases the catastrophic risks of weak passwords through relentless AI-driven attacks 🤖💥. Designed with modularity, it allows easy customization for ethical hacking experiments.
 
-> ⚠️ **Disclaimer**: This tool is intended solely for ethical and legal purposes. Unauthorized use may lead to severe consequences.
+> ⚠️ **Disclaimer:** This tool is strictly for ethical and legal use. Unauthorized access or misuse will unleash dire consequences. 🚨🔒
 
 ## ✨ Features
-SkyHack is designed with user accessibility in mind, making it easy for beginners to navigate its functionalities. Users can retrieve valuable information by extracting data from search results, followers, and followings lists. Upcoming features will also allow data extraction from hashtags and explore pages. 🔍
-
-In addition to data retrieval, SkyHack offers robust hacking functionalities. Users can initiate hacking processes with pre-set configurations for quick and efficient actions. The tool provides logs of successful hacking attempts and checkpoint results, enhancing users' understanding of effective tool usage. 🔑
-
-SkyHack also features customizable settings, allowing users to personalize their experience by modifying the Useragent.json file. They can switch between `Single` or `Random` user-agent settings for advanced usage. 🛠️ These features collectively aim to enhance understanding of password vulnerabilities while promoting ethical usage.
+SkyHacks delivers a sinister user-friendly interface for beginners, extracting data from BlueSky search results, followers, and followings with ruthless precision 🔍. Upcoming updates will rip data from hashtags and explore pages. It unleashes brutal hacking with pre-set configs, logging successful attacks and checkpoints for chilling insights 🔑. Customize the horror with Useragent.json, toggling between `Single` or `Random` user-agent settings for advanced terror 🛠️. All features scream ethical use to expose password vulnerabilities.
 
 ## 🛠️ Installation
 - **Linux - [Termux](https://drive.google.com/file/d/1dHqQe_WNWVp0qXTRPqYId_J3YVJ6taHr/view?usp=sharing)**
@@ -61,5 +57,5 @@ Example:
 ## 🚨 Disclaimer
 This tool is for educational and research purposes only. Misuse of this tool is illegal and unethical. The developers are not responsible for any harm caused by its use. Use responsibly and within the law.
 
-## 📜 License
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
+📜 License
+This project is not open source. Access and usage rights are strictly reserved for authorized users only. Unauthorized distribution or modification is prohibited. See the `LICENSE` file for more details.
