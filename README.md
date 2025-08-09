@@ -1,20 +1,23 @@
 # SkyHacks - Nightmare BlueSky Account Annihilator 😈💀
+
 ![SkyHack Logo](https://github.com/user-attachments/assets/8aa55ed2-3f3a-4bb6-9cee-d2afeb44fcbc)
 
-**SkyHack** is a terrifyingly potent, Python-based brute force tool ⚙️🕸️ crafted for educational purposes only. It showcases the catastrophic risks of weak passwords through relentless AI-driven attacks 🤖💥. Designed with modularity, it allows easy customization for ethical hacking experiments.
+**SkyHack** is a Python-forged cyber phantom, designed to relentlessly probe BlueSky account vulnerabilities with ruthless precision for ethical hacking purposes. Unleashed in 2024, it wields AI-driven brute force attacks and advanced data extraction, harvesting critical user data like usernames and follower lists for meticulous analysis. Trusted by thousands worldwide, SkyHack evolves ceaselessly, sharpening its edge against weak passwords. Built for modularity, it empowers ethical hackers to customize tests, exposing digital frailties. Only the bold and responsible may wield this tool, as its power demands strict adherence to legal boundaries.
 
-> ⚠️ **Disclaimer:** This tool is strictly for ethical and legal use. Unauthorized access or misuse will unleash dire consequences. 🚨🔒
+> **Disclaimer:** SkyHack is exclusively for lawful, ethical security testing. Unauthorized use invites severe consequences. Wield it wisely to fortify digital defenses.
 
 ## ✨ Features
-SkyHacks delivers a sinister user-friendly interface for beginners, extracting data from BlueSky search results, followers, and followings with ruthless precision 🔍. Upcoming updates will rip data from hashtags and explore pages. It unleashes brutal hacking with pre-set configs, logging successful attacks and checkpoints for chilling insights 🔑. Customize the horror with Useragent.json, toggling between `Single` or `Random` user-agent settings for advanced terror 🛠️. All features scream ethical use to expose password vulnerabilities.
+
+SkyHack offers a sleek interface for novices, slicing BlueSky’s search results, followers, and followings to extract data for export. Its brute force engine logs breaches with pre-set configs, while `Useragent.json` toggles Single or Random settings for stealth. Future updates will target hashtags and explore pages. All features are crafted for ethical use to expose password weaknesses.
 
 ## 🛠️ Installation
-- **Linux - [Termux](https://drive.google.com/file/d/1dHqQe_WNWVp0qXTRPqYId_J3YVJ6taHr/view?usp=sharing)**
 
+- **Linux - [Termux](https://drive.google.com/file/d/1dHqQe_WNWVp0qXTRPqYId_J3YVJ6taHr/view?usp=sharing)**
+  
   ```
   $ pkg update -y && pkg upgrade -y
   $ pkg install git python-pip
-  $ git clone https://github.com/RozhakXD/SkyHack
+  $ git clone --depth 1 https://github.com/RozhakDev/SkyHack.git
   $ cd "SkyHack"
   $ python -m pip install -r requirements.txt
   $ chmod +x Run
@@ -22,23 +25,29 @@ SkyHacks delivers a sinister user-friendly interface for beginners, extracting d
   ```
 
 - **Running on Termux**
+  
   ```
   $ cd "$HOME/SkyHack"
   $ ./Run
   ```
 
 ## ⚙️ Customizing User-Agent Settings
-You can modify the user-agent behavior by editing the `Useragent.json` file.
-1. Open the file with a text editor (e.g., `nano` or `vim`):
 
-    ```
-    nano Useragent.json
-    ```
+You can modify the user-agent behavior by editing the `Useragent.json` file.
+
+1. Open the file with a text editor (e.g., `nano` or `vim`):
+   
+   ```
+   nano Useragent.json
+   ```
+
 2. Change the `TYPE` value to:
-    - `RANDOM`: Rotate between multiple user-agents.
-    - `SINGLE`: Use a single user-agent.
+   
+   - `RANDOM`: Rotate between multiple user-agents.
+   - `SINGLE`: Use a single user-agent.
 
 Example:
+
 ```json
 {
     "TYPE": "RANDOM"
@@ -46,16 +55,17 @@ Example:
 ```
 
 ## 📸 Screenshots
+
 ![FunPic_20250107](https://github.com/user-attachments/assets/6df2676b-1d2e-4b92-adcd-2339526e32a8)
 
 ## 🛡️ Error Handling & Tips
-- If you experience issues with login or token validation, try changing the BlueSky token and ensure that the token is correct! 🔑
-- If you encounter any errors while hacking, you can simply ignore them; we found that enabling airplane mode allows the hack to run smoothly! ✈️
-- If you don't get results, it may be because the target is not suitable or has a difficult-to-guess password. You might have chosen the wrong password list! ❌
-- If you encounter issues with dumping IDs, ensure that the target has a substantial number of followers/following and that the username is correct! 📊
+
+SkyHack demands precision. Invalid tokens trigger login failures—verify or replace your BlueSky token. Airplane mode can bypass errors during attacks. Poor results may stem from unsuitable targets or weak wordlists. For ID dumping issues, ensure the target has ample followers and a correct username.
 
 ## 🚨 Disclaimer
-This tool is for educational and research purposes only. Misuse of this tool is illegal and unethical. The developers are not responsible for any harm caused by its use. Use responsibly and within the law.
 
-📜 License
-This project is not open source. Access and usage rights are strictly reserved for authorized users only. Unauthorized distribution or modification is prohibited. See the `LICENSE` file for more details.
+SkyHack exists solely for educational and ethical research. Any misuse is a betrayal of its purpose and a violation of law. The creators renounce all liability for harm caused by reckless or illegal use. Wield this tool with honor, or face the consequences.
+
+## 📜 License
+
+SkyHack is not open source. Access is restricted to authorized users for ethical testing only. Unauthorized modification or distribution is forbidden, and violators will face the full weight of the law. Consult the [LICENSE](LICENSE) file for details.
